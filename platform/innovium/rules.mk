@@ -9,6 +9,7 @@ include $(PLATFORM_PATH)/one-image.mk
 include $(PLATFORM_PATH)/docker-saiserver-invm.mk
 include $(PLATFORM_PATH)/libsaithrift-dev.mk
 include $(PLATFORM_PATH)/python-saithrift.mk
+include $(PLATFORM_PATH)/mrvl-teralynx.mk
 
 SONIC_ALL += $(SONIC_INVM_ONE_IMAGE) \
              $(DOCKER_FPM) \
